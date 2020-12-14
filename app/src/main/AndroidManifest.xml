@@ -9,7 +9,8 @@
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <activity android:name=".edittext.RequestFocusInScrollLayoutActivity"></activity>
+    <activity android:name=".recyclerview.ListEmptyBackgroundNotDrawActivity"></activity>
+    <activity android:name=".edittext.RequestFocusInScrollLayoutActivity" />
     <activity android:name=".textview.inputfilter.InputFilterSetActivity" />
     <activity android:name=".textview.TextViewActivity" />
     <activity android:name=".MainActivity">
@@ -21,6 +22,7 @@
     </activity>
     <activity android:name=".textview.inputfilter.InputFilterActivity" />
     <activity android:name=".edittext.EditTextActivity" />
+    <activity android:name=".recyclerview.RecyclerViewActivity" />
   </application>
 
 </manifest>
