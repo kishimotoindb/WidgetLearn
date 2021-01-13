@@ -4,7 +4,7 @@ import com.example.widget.BaseActivity;
 import com.example.widget.edittext.EditTextActivity;
 import com.example.widget.textview.TextViewActivity;
 
-public class RecyclerViewActivity extends BaseActivity {
+public class RecyclerViewDemoListActivity extends BaseActivity {
   private static final String TAG = "RecyclerViewActivity";
 
   {

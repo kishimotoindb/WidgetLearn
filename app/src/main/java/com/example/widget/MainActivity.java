@@ -1,8 +1,9 @@
 package com.example.widget;
 
 import com.example.widget.edittext.EditTextActivity;
-import com.example.widget.recyclerview.RecyclerViewActivity;
+import com.example.widget.recyclerview.RecyclerViewDemoListActivity;
 import com.example.widget.textview.TextViewActivity;
+import com.example.widget.xmltag.XmlTagDemoListActivity;
 
 public class MainActivity extends BaseActivity {
   private static final String TAG = "MainActivity";
@@ -12,11 +13,13 @@ public class MainActivity extends BaseActivity {
         "TextView",
         "EditText",
         "RecyclerView",
+        "XmlTag"
     };
     mClasses = new Class[]{
         TextViewActivity.class,
         EditTextActivity.class,
-        RecyclerViewActivity.class,
+        RecyclerViewDemoListActivity.class,
+        XmlTagDemoListActivity.class
     };
   }
 }
