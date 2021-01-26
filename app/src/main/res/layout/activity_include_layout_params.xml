@@ -6,6 +6,22 @@
   android:orientation="vertical"
   tools:context=".xmltag.IncludeLayoutParamsActivity">
 
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="测试不透明度100%的颜色是否会透出文字" />
+
+    <View
+      android:background="#FFF2E6"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+
+  </FrameLayout>
+
   <include
     layout="@layout/include_layout_params"
     android:layout_width="match_parent"

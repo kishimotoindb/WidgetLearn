@@ -9,7 +9,14 @@
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <activity android:name=".xmltag.IncludeLayoutParamsActivity"></activity>
+    <activity android:name=".dialog.WhetherDialogDismissAfterActivityDestroyActivity"></activity>
+    <activity
+      android:name=".viewgroup.ScrollViewActivity"
+      android:label="@string/title_activity_scroll_view"
+      android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name=".viewgroup.ConstraintLayoutExprActivity" />
+    <activity android:name=".props.EnableStateColorExprActivity" />
+    <activity android:name=".xmltag.IncludeLayoutParamsActivity" />
     <activity android:name=".recyclerview.ListEmptyBackgroundNotDrawActivity" />
     <activity android:name=".edittext.RequestFocusInScrollLayoutActivity" />
     <activity android:name=".textview.inputfilter.InputFilterSetActivity" />
@@ -25,6 +32,9 @@
     <activity android:name=".edittext.EditTextActivity" />
     <activity android:name=".recyclerview.RecyclerViewDemoListActivity" />
     <activity android:name=".xmltag.XmlTagDemoListActivity" />
+    <activity android:name=".props.PropsDemoListActivity" />
+    <activity android:name=".viewgroup.ViewGroupDemoListActivity" />
+    <activity android:name=".dialog.DialogDemoListActivity" />
   </application>
 
 </manifest>
